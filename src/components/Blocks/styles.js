@@ -5,10 +5,11 @@ export const Wrapper = styled.section`
   justify-content: space-around;
   padding: 20px 10px;
   flex-direction: column;
-
   align-items: center;
+
   @media only screen and (min-width: 768px) {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 `;
 
@@ -32,8 +33,8 @@ export const Block = styled.div`
   @media only screen and (min-width: 768px) {
     width: 100px;
     height: 100px;
-    margin-top: 0px;
     font-size: 24px;
+    margin: 10px;
   }
   &:hover {
     font-size: 28px;

@@ -1,7 +1,13 @@
 import React, { useContext } from 'react';
 
 import HeaderBar from '../HeaderBar';
-import { PlayerTitle, ItemHeading, ItemQty, ItemScore } from '../../Constants';
+import {
+  PlayerTitle,
+  ItemHeading,
+  ItemQty,
+  ItemScore,
+  StartNewGame
+} from '../../Constants';
 import Footer from './Footer';
 import WineerBlock from './WineerBlock';
 import { CounterContext } from '../../reducer';
@@ -26,6 +32,7 @@ const Score = () => {
           state.items &&
           Object.keys(state.items).map(function(key) {
             return (
+              // add new winner block if not present or update the previous one
               <WineerBlock
                 key={state.items[key].price + state.items[key].game}
                 data={state.items[key]}
@@ -33,7 +40,9 @@ const Score = () => {
             );
           })}
         <Footer />
-        <Trigger onClick={() => dispatch({ type: 'reset' })}>{NewGame}</Trigger>
+        <Trigger onClick={() => dispatch({ type: StartNewGame })}>
+          {NewGame}
+        </Trigger>
       </ScoreBlock>
     </Column>
   );

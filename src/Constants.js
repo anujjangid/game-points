@@ -31,3 +31,6 @@ export const ItemHeading = 'Item';
 export const ItemQty = 'Qty';
 export const ItemScore = 'Score';
 export const NewGame = 'New Game';
+export const BonusText = 'Bonus';
+export const TotalText = 'Total';
+export const StartNewGame = 'reset';

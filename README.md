@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Quick guide
+
+1. Clone the project using `https://github.com/anujjangid/game-points`
+2. Install the dependencies using `npm i`
+3. Run the project `npm run start`, the project will open on [http://localhost:3000](http://localhost:3000)
+4. To test the Components, run `npm run test`
+5. For Production build, run `npm run build`
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -56,4 +64,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - Styled Component
 - Custom Grid system
 - Jest and React-test-renderer
+- Mobile first approach
 ```

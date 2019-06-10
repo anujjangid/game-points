@@ -5,6 +5,11 @@ export const TabelHead = styled.div`
   display: flex;
   color: #fff;
   text-transform: uppercase;
+  font-size: 12px;
+  @media only screen and (min-width: 768px) {
+    border: none;
+    font-size: 14px;
+  }
   div {
     padding: 10px;
     box-sizing: border-box;
