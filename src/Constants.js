@@ -30,3 +30,4 @@ export const PlayerTitle = 'PLAYERS ITEMS';
 export const ItemHeading = 'Item';
 export const ItemQty = 'Qty';
 export const ItemScore = 'Score';
+export const NewGame = 'New Game';

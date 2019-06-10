@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
+
 export const BG = styled.div`
   background: #d3d4da;
   padding: 20px;
@@ -7,10 +8,11 @@ export const BG = styled.div`
   @media only screen and (min-width: 768px) {
   }
 `;
+
 export const Row = styled.div`
   background: #fff;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 100%;
   @media only screen and (min-width: 768px) {
     flex-direction: row;
@@ -23,6 +25,7 @@ export const Row = styled.div`
   }
 `;
 
+// custom column grid system
 export const Column = styled.div`
   float: left;
   width: 100%;
@@ -32,6 +35,7 @@ export const Column = styled.div`
   }
 `;
 
+// global reset style
 export const GlobalStyle = createGlobalStyle`
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,

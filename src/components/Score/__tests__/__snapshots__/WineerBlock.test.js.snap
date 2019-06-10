@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite for Score Component render correctly 1`] = `
+<section
+  className="sc-ifAKCX VBDxL"
+>
+  <div
+    className="sc-htpNat ezQThq"
+    span="4"
+  >
+    A
+  </div>
+  <div
+    className="sc-htpNat ezQThq"
+    span="4"
+  >
+    1
+  </div>
+  <div
+    className="sc-htpNat ezQThq"
+    span="4"
+  >
+    10
+  </div>
+</section>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite for Score Component render correctly 1`] = `
+<footer
+  className="sc-htpNat nCSaE"
+>
+  <div
+    className="sc-bxivhb iMiCKC"
+  >
+    <span>
+      Bonus
+    </span>
+    <span>
+      0
+    </span>
+  </div>
+  <div
+    className="sc-bxivhb iMiCKC"
+  >
+    <span>
+      Total
+    </span>
+    <span>
+      0
+    </span>
+  </div>
+</footer>
+`;

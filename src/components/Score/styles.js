@@ -12,14 +12,17 @@ export const TabelHead = styled.div`
   }
 `;
 
-export const List = styled.div`
-  background: #b8d8bc;
+export const List = styled.section`
+  background: #fff;
   display: flex;
   color: #333;
   text-transform: uppercase;
   border-bottom: 1px solid #333;
   margin-bottom: 10px;
   border-top: 1px solid #333;
+  width: 88%;
+  margin: 10px auto;
+  border-radius: 10px;
   div {
     padding: 12px;
     box-sizing: border-box;
@@ -33,6 +36,7 @@ export const ScoreFooter = styled.footer`
   justify-content: space-between;
   flex-direction: column;
   margin-top: auto;
+  background: #fff;
 `;
 
 export const ScoreItem = styled.div`
@@ -57,7 +61,7 @@ export const Trigger = styled.button`
   color: #fff;
   box-shadow: 0 6px #ab3c3c;
   border-radius: 5px;
-  margin: 10px 0 20px 0;
+  margin: 10px 0 10px 0;
   &:hover {
     box-shadow: 0 4px #ab3c3c;
     top: 2px;
@@ -69,4 +73,9 @@ export const ScoreBlock = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   height: 100%;
+  border-left: 1px solid #8acdd2;
+  background: gray;
+  @media only screen and (min-width: 768px) {
+    border: none;
+  }
 `;

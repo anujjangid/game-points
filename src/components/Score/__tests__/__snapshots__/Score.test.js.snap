@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite for Score Component render correctly 1`] = `
+<div
+  className="sc-dnqmqq jxUQYu"
+  span="4"
+>
+  <div
+    className="sc-bZQynM eQktHo"
+  >
+    <header
+      className="sc-bdVaJa eQZKMo"
+    >
+      <h4>
+        PLAYERS ITEMS
+      </h4>
+    </header>
+    <div
+      className="sc-bwzfXH bWxlZi"
+    >
+      <div
+        className="sc-dnqmqq jxUQYu"
+        span="4"
+      >
+        Item
+      </div>
+      <div
+        className="sc-dnqmqq jxUQYu"
+        span="4"
+      >
+        Qty
+      </div>
+      <div
+        className="sc-dnqmqq jxUQYu"
+        span="4"
+      >
+        Score
+      </div>
+    </div>
+    <footer
+      className="sc-bxivhb edvcqL"
+    >
+      <div
+        className="sc-ifAKCX hxhCpK"
+      >
+        <span>
+          Bonus
+        </span>
+        <span>
+          0
+        </span>
+      </div>
+      <div
+        className="sc-ifAKCX hxhCpK"
+      >
+        <span>
+          Total
+        </span>
+        <span>
+          0
+        </span>
+      </div>
+    </footer>
+    <button
+      className="sc-EHOje dLWkVi"
+      onClick={[Function]}
+    >
+      New Game
+    </button>
+  </div>
+</div>
+`;

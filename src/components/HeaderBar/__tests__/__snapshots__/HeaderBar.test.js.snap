@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite for HeaderBar Component render correctly 1`] = `
+<header
+  className="sc-bdVaJa eQZKMo"
+>
+  <h4>
+    Test
+  </h4>
+</header>
+`;

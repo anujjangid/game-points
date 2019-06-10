@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite for Players Component render correctly 1`] = `
+<div
+  className="sc-EHOje ejagVo"
+  span="8"
+>
+  <header
+    className="sc-bdVaJa eQZKMo"
+  >
+    <h4>
+      Kahoot! POINTS
+    </h4>
+  </header>
+  <section
+    className="sc-bwzfXH HjVAy"
+  >
+    <div
+      className="sc-htpNat jJQQBl"
+      onClick={[Function]}
+    >
+      A
+    </div>
+    <div
+      className="sc-htpNat jJQQBl"
+      onClick={[Function]}
+    >
+      B
+    </div>
+    <div
+      className="sc-htpNat jJQQBl"
+      onClick={[Function]}
+    >
+      C
+    </div>
+    <div
+      className="sc-htpNat jJQQBl"
+      onClick={[Function]}
+    >
+      D
+    </div>
+    <div
+      className="sc-htpNat jJQQBl"
+      onClick={[Function]}
+    >
+      E
+    </div>
+  </section>
+</div>
+`;

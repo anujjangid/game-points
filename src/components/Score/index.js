@@ -1,12 +1,15 @@
 import React, { useContext } from 'react';
+
 import HeaderBar from '../HeaderBar';
 import { PlayerTitle, ItemHeading, ItemQty, ItemScore } from '../../Constants';
 import Footer from './Footer';
+import WineerBlock from './WineerBlock';
 import { CounterContext } from '../../reducer';
-import { TabelHead, List, Trigger, ScoreBlock } from './styles';
+import { TabelHead, Trigger, ScoreBlock } from './styles';
 import { Column } from '../../styles';
+import { NewGame } from '../../Constants';
 
-const Score = props => {
+const Score = () => {
   const { state, dispatch } = useContext(CounterContext);
 
   return (
@@ -23,15 +26,14 @@ const Score = props => {
           state.items &&
           Object.keys(state.items).map(function(key) {
             return (
-              <List key={state.items[key].price + state.items[key].game}>
-                <Column span="4">{state.items[key].game}</Column>
-                <Column span="4">{state.items[key].count}</Column>
-                <Column span="4">{state.items[key].price}</Column>
-              </List>
+              <WineerBlock
+                key={state.items[key].price + state.items[key].game}
+                data={state.items[key]}
+              />
             );
           })}
         <Footer />
-        <Trigger onClick={() => dispatch({ type: 'reset' })}>Clear</Trigger>
+        <Trigger onClick={() => dispatch({ type: 'reset' })}>{NewGame}</Trigger>
       </ScoreBlock>
     </Column>
   );

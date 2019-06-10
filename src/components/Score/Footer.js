@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+
 import { getBonus, getTotal } from '../../utils';
 import { CounterContext } from '../../reducer';
 import { ScoreFooter, ScoreItem } from './styles';

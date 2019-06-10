@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite for Blocks Component render correctly 1`] = `
+<section
+  className="sc-bdVaJa kKLUAd"
+>
+  <div
+    className="sc-bwzfXH kSOKvt"
+    onClick={[Function]}
+  >
+    A
+  </div>
+  <div
+    className="sc-bwzfXH kSOKvt"
+    onClick={[Function]}
+  >
+    B
+  </div>
+  <div
+    className="sc-bwzfXH kSOKvt"
+    onClick={[Function]}
+  >
+    C
+  </div>
+  <div
+    className="sc-bwzfXH kSOKvt"
+    onClick={[Function]}
+  >
+    D
+  </div>
+  <div
+    className="sc-bwzfXH kSOKvt"
+    onClick={[Function]}
+  >
+    E
+  </div>
+</section>
+`;

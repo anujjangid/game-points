@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import PropTypes from 'prop-types';
 import { CounterContext } from '../../reducer';
 import { Wrapper, Block } from './styles';
 
@@ -8,9 +9,9 @@ const Blocks = props => {
 
   return (
     <Wrapper>
-      {data.map(item => {
+      {data.map((item, index) => {
         return (
-          <Block key={item.name} onClick={() => dispatch({ type: item.game })}>
+          <Block key={index} onClick={() => dispatch({ type: item.game })}>
             {item.game}
           </Block>
         );
@@ -20,3 +21,14 @@ const Blocks = props => {
 };
 
 export default Blocks;
+
+Blocks.propTypes = {
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      bonus: PropTypes.number,
+      bonusNumber: PropTypes.number,
+      game: PropTypes.string.isRequired,
+      value: PropTypes.number.isRequired
+    })
+  )
+};
